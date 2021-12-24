@@ -1,36 +1,37 @@
 AllCops:
-NewCops: enable
-Exclude:
-- "db//"
-- "bin/"
-- "config//"
-- "Guardfile"
-- "Rakefile"
-- "node_modules/**/"
+  NewCops: enable
+  Exclude:
+    - "db/**/*"
+    - "bin/*" 
+    - "config/**/*"
+    - "Guardfile"
+    - "Rakefile"
+    - "node_modules/**/*"
 
-DisplayCopNames: true
+  DisplayCopNames: true
 
 Style/Documentation:
-Enabled: false
+  Enabled: false
 Layout/LineLength:
-Enabled: false
+  Enabled: false
 Metrics/BlockLength:
-Enabled: false
+  Enabled: false
 Metrics/PerceivedComplexity:
-Enabled: false
+  Enabled: false
 Metrics/ParameterLists:
-Enabled: false
+  Enabled: false
 Style/GuardClause:
-Enabled: false
+  Enabled: false
 Metrics/ClassLength:
-Enabled: false
+  Enabled: false
 Metrics/MethodLength:
-Max: 1000000
+  Max: 1000000
 Metrics/CyclomaticComplexity:
-Max: 1000000
+  Max: 1000000
 Metrics/AbcSize:
-Max: 1000000
+  Max: 1000000
 Metrics/ModuleLength:
-Max: 1000000
+  Max: 1000000
 Style/GlobalVars:
-Enabled: false
+  Enabled: false
+  
