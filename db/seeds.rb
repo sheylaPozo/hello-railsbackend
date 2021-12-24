@@ -1,0 +1,5 @@
+greeting_one = Greeting.create(message: "Hola!")
+greeting_two = Greeting.create(message: "Hello everyone!")
+greeting_three = Greeting.create(message: "Good Morning!")
+greeting_four = Greeting.create(message: "Good Evening!")
+greeting_five = Greeting.create(message: "Hi there!")
